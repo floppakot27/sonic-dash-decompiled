@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net20</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>11.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\Development\sonic-dash-13-11-25-12-07-21-en-android\assets\bin\Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>..\..\Development\sonic-dash-13-11-25-12-07-21-en-android\assets\bin\Data\Managed\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>..\..\Development\sonic-dash-13-11-25-12-07-21-en-android\assets\bin\Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>..\..\Development\sonic-dash-13-11-25-12-07-21-en-android\assets\bin\Data\Managed\System.Xml.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

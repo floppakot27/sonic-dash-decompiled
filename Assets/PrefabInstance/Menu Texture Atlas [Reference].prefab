@@ -1,0 +1,760 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1674406955789832}
+  m_IsPrefabParent: 1
+--- !u!1 &1674406955789832
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4768566114698809}
+  - component: {fileID: 114570667164118460}
+  - component: {fileID: 114989136403951000}
+  m_Layer: 0
+  m_Name: Menu Texture Atlas [Reference]
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4768566114698809
+Transform:
+  m_GameObject: {fileID: 1674406955789832}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114570667164118460
+MonoBehaviour:
+  m_GameObject: {fileID: 1674406955789832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13cc67d3c7c8c8a44b59223817b7e082, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: 465b0f794b9b3074790f35d11c69c895, type: 2}
+  sprites:
+  - name: button_back_back
+    outer:
+      serializedVersion: 2
+      x: 514
+      y: 192
+      width: 108
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 514
+      y: 192
+      width: 108
+      height: 64
+    rotated: 0
+    paddingLeft: 0.1111111
+    paddingRight: -0.1111111
+    paddingTop: 0.75
+    paddingBottom: -0.75
+  - name: button_back_outline
+    outer:
+      serializedVersion: 2
+      x: 404
+      y: 212
+      width: 108
+      height: 56
+    inner:
+      serializedVersion: 2
+      x: 404
+      y: 212
+      width: 108
+      height: 56
+    rotated: 0
+    paddingLeft: 0.1111111
+    paddingRight: -0.1111111
+    paddingTop: 0.2142857
+    paddingBottom: -0.2142857
+  - name: button_back_shadow
+    outer:
+      serializedVersion: 2
+      x: 148
+      y: 152
+      width: 112
+      height: 104
+    inner:
+      serializedVersion: 2
+      x: 148
+      y: 152
+      width: 112
+      height: 104
+    rotated: 0
+    paddingLeft: 0.08928572
+    paddingRight: -0.08928572
+    paddingTop: 0.1538462
+    paddingBottom: -0.1538462
+  - name: button_back_top
+    outer:
+      serializedVersion: 2
+      x: 404
+      y: 270
+      width: 100
+      height: 84
+    inner:
+      serializedVersion: 2
+      x: 404
+      y: 270
+      width: 100
+      height: 84
+    rotated: 0
+    paddingLeft: 0.16
+    paddingRight: -0.16
+    paddingTop: 0.1904762
+    paddingBottom: -0.1904762
+  - name: button_blue_med_back
+    outer:
+      serializedVersion: 2
+      x: 262
+      y: 212
+      width: 140
+      height: 88
+    inner:
+      serializedVersion: 2
+      x: 262
+      y: 212
+      width: 140
+      height: 88
+    rotated: 0
+    paddingLeft: 0.08571429
+    paddingRight: -0.08571429
+    paddingTop: 0.5454546
+    paddingBottom: -0.5454546
+  - name: button_blue_med_outline
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 268
+      width: 140
+      height: 84
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 268
+      width: 140
+      height: 84
+    rotated: 0
+    paddingLeft: 0.08571429
+    paddingRight: -0.08571429
+    paddingTop: 0.1904762
+    paddingBottom: -0.1904762
+  - name: button_blue_med_shadow
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 152
+      width: 144
+      height: 114
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 152
+      width: 144
+      height: 114
+    rotated: 0
+    paddingLeft: 0.06944445
+    paddingRight: -0.06944445
+    paddingTop: 0.2280702
+    paddingBottom: -0.2280702
+  - name: button_blue_med_top
+    outer:
+      serializedVersion: 2
+      x: 886
+      y: 172
+      width: 132
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 886
+      y: 172
+      width: 132
+      height: 100
+    rotated: 0
+    paddingLeft: 0.1212121
+    paddingRight: -0.1212121
+    paddingTop: 0.2
+    paddingBottom: -0.2
+  - name: button_fb_back
+    outer:
+      serializedVersion: 2
+      x: 132
+      y: 358
+      width: 92
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 132
+      y: 358
+      width: 92
+      height: 72
+    rotated: 0
+    paddingLeft: 0.2173913
+    paddingRight: -0.2173913
+    paddingTop: 0.6666667
+    paddingBottom: -0.6666667
+  - name: button_fb_top
+    outer:
+      serializedVersion: 2
+      x: 218
+      y: 456
+      width: 84
+      height: 84
+    inner:
+      serializedVersion: 2
+      x: 218
+      y: 456
+      width: 84
+      height: 84
+    rotated: 0
+    paddingLeft: 0.2857143
+    paddingRight: -0.2857143
+    paddingTop: 0.2857143
+    paddingBottom: -0.2857143
+  - name: button_gc_back
+    outer:
+      serializedVersion: 2
+      x: 404
+      y: 356
+      width: 92
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 404
+      y: 356
+      width: 92
+      height: 72
+    rotated: 0
+    paddingLeft: 0.2173913
+    paddingRight: -0.2173913
+    paddingTop: 0.6666667
+    paddingBottom: -0.6666667
+  - name: button_gc_top
+    outer:
+      serializedVersion: 2
+      x: 132
+      y: 432
+      width: 84
+      height: 84
+    inner:
+      serializedVersion: 2
+      x: 132
+      y: 432
+      width: 84
+      height: 84
+    rotated: 0
+    paddingLeft: 0.2857143
+    paddingRight: -0.2857143
+    paddingTop: 0.2857143
+    paddingBottom: -0.2857143
+  - name: button_options_back
+    outer:
+      serializedVersion: 2
+      x: 898
+      y: 2
+      width: 124
+      height: 48
+    inner:
+      serializedVersion: 2
+      x: 898
+      y: 2
+      width: 124
+      height: 48
+    rotated: 0
+    paddingLeft: 0.09677419
+    paddingRight: -0.09677419
+    paddingTop: 1
+    paddingBottom: -1
+  - name: button_options_outline
+    outer:
+      serializedVersion: 2
+      x: 898
+      y: 52
+      width: 124
+      height: 48
+    inner:
+      serializedVersion: 2
+      x: 898
+      y: 52
+      width: 124
+      height: 48
+    rotated: 0
+    paddingLeft: 0.09677419
+    paddingRight: -0.09677419
+    paddingTop: 0.25
+    paddingBottom: -0.25
+  - name: button_options_shadow
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 354
+      width: 128
+      height: 88
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 354
+      width: 128
+      height: 88
+    rotated: 0
+    paddingLeft: 0.078125
+    paddingRight: -0.078125
+    paddingTop: 0.1818182
+    paddingBottom: -0.1818182
+  - name: button_options_top
+    outer:
+      serializedVersion: 2
+      x: 898
+      y: 102
+      width: 116
+      height: 68
+    inner:
+      serializedVersion: 2
+      x: 898
+      y: 102
+      width: 116
+      height: 68
+    rotated: 0
+    paddingLeft: 0.137931
+    paddingRight: -0.137931
+    paddingTop: 0.2352941
+    paddingBottom: -0.2352941
+  - name: button_play_back
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 70
+      width: 268
+      height: 80
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 70
+      width: 268
+      height: 80
+    rotated: 0
+    paddingLeft: 0.1044776
+    paddingRight: -0.1044776
+    paddingTop: 0.8
+    paddingBottom: -0.8
+  - name: button_play_outline
+    outer:
+      serializedVersion: 2
+      x: 272
+      y: 70
+      width: 268
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 272
+      y: 70
+      width: 268
+      height: 80
+    rotated: 0
+    paddingLeft: 0.1044776
+    paddingRight: -0.1044776
+    paddingTop: 0.2777778
+    paddingBottom: -0.2777778
+  - name: button_play_shadow
+    outer:
+      serializedVersion: 2
+      x: 624
+      y: 2
+      width: 272
+      height: 124
+    inner:
+      serializedVersion: 2
+      x: 624
+      y: 2
+      width: 272
+      height: 124
+    rotated: 0
+    paddingLeft: 0.09558824
+    paddingRight: -0.09558824
+    paddingTop: 0.2096774
+    paddingBottom: -0.2096774
+  - name: button_play_top
+    outer:
+      serializedVersion: 2
+      x: 624
+      y: 128
+      width: 260
+      height: 108
+    inner:
+      serializedVersion: 2
+      x: 624
+      y: 128
+      width: 260
+      height: 108
+    rotated: 0
+    paddingLeft: 0.1230769
+    paddingRight: -0.1230769
+    paddingTop: 0.2222222
+    paddingBottom: -0.2222222
+  - name: button_social_outline
+    outer:
+      serializedVersion: 2
+      x: 246
+      y: 302
+      width: 92
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 246
+      y: 302
+      width: 92
+      height: 72
+    rotated: 0
+    paddingLeft: 0.2173913
+    paddingRight: -0.2173913
+    paddingTop: 0.2777778
+    paddingBottom: -0.2777778
+  - name: button_social_shadow
+    outer:
+      serializedVersion: 2
+      x: 148
+      y: 258
+      width: 96
+      height: 98
+    inner:
+      serializedVersion: 2
+      x: 148
+      y: 258
+      width: 96
+      height: 98
+    rotated: 0
+    paddingLeft: 0.1875
+    paddingRight: -0.1875
+    paddingTop: 0.2653061
+    paddingBottom: -0.2653061
+  - name: counter_bank
+    outer:
+      serializedVersion: 2
+      x: 566
+      y: 420
+      width: 40
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 566
+      y: 420
+      width: 40
+      height: 40
+    rotated: 0
+    paddingLeft: 0.625
+    paddingRight: -0.625
+    paddingTop: 0.775
+    paddingBottom: -0.775
+  - name: counter_button
+    outer:
+      serializedVersion: 2
+      x: 542
+      y: 138
+      width: 68
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 542
+      y: 138
+      width: 68
+      height: 52
+    rotated: 0
+    paddingLeft: 3.294118
+    paddingRight: -3.294118
+    paddingTop: 0.4615385
+    paddingBottom: -0.4615385
+  - name: counter_frame_long
+    outer:
+      serializedVersion: 2
+      x: 334
+      y: 2
+      width: 288
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 334
+      y: 2
+      width: 288
+      height: 66
+    rotated: 0
+    paddingLeft: 0.03472222
+    paddingRight: -0.03472222
+    paddingTop: 0.3030303
+    paddingBottom: -0.3030303
+  - name: counter_frame_score
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 2
+      width: 330
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 2
+      width: 330
+      height: 66
+    rotated: 0
+    paddingLeft: 0.1939394
+    paddingRight: -0.1939394
+    paddingTop: 0.3030303
+    paddingBottom: -0.3030303
+  - name: counter_frame_short
+    outer:
+      serializedVersion: 2
+      x: 272
+      y: 144
+      width: 240
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 272
+      y: 144
+      width: 240
+      height: 66
+    rotated: 0
+    paddingLeft: 0.04166667
+    paddingRight: -0.04166667
+    paddingTop: 0.3030303
+    paddingBottom: -0.3030303
+  - name: counter_ring
+    outer:
+      serializedVersion: 2
+      x: 470
+      y: 434
+      width: 38
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 470
+      y: 434
+      width: 38
+      height: 40
+    rotated: 0
+    paddingLeft: 0.7105263
+    paddingRight: -0.7105263
+    paddingTop: 0.75
+    paddingBottom: -0.75
+  - name: frame_blue_box
+    outer:
+      serializedVersion: 2
+      x: 624
+      y: 238
+      width: 200
+      height: 202
+    inner:
+      serializedVersion: 2
+      x: 656
+      y: 270
+      width: 136
+      height: 132
+    rotated: 0
+    paddingLeft: 0.15
+    paddingRight: -0.15
+    paddingTop: 0.1584158
+    paddingBottom: -0.1584158
+  - name: frame_blue_inset
+    outer:
+      serializedVersion: 2
+      x: 826
+      y: 274
+      width: 196
+      height: 196
+    inner:
+      serializedVersion: 2
+      x: 846
+      y: 294
+      width: 156
+      height: 156
+    rotated: 0
+    paddingLeft: 0.1632653
+    paddingRight: -0.1632653
+    paddingTop: 0.1632653
+    paddingBottom: -0.1632653
+  - name: icon_back_01
+    outer:
+      serializedVersion: 2
+      x: 402
+      y: 430
+      width: 66
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 402
+      y: 430
+      width: 66
+      height: 52
+    rotated: 0
+    paddingLeft: 0.469697
+    paddingRight: -0.469697
+    paddingTop: 0.6153846
+    paddingBottom: -0.6153846
+  - name: icon_close_01
+    outer:
+      serializedVersion: 2
+      x: 340
+      y: 302
+      width: 62
+      height: 56
+    inner:
+      serializedVersion: 2
+      x: 340
+      y: 302
+      width: 62
+      height: 56
+    rotated: 0
+    paddingLeft: 0.5645161
+    paddingRight: -0.5645161
+    paddingTop: 0.5535714
+    paddingBottom: -0.5535714
+  - name: icon_music_01
+    outer:
+      serializedVersion: 2
+      x: 498
+      y: 362
+      width: 66
+      height: 70
+    inner:
+      serializedVersion: 2
+      x: 498
+      y: 362
+      width: 66
+      height: 70
+    rotated: 0
+    paddingLeft: 0.5454546
+    paddingRight: -0.5454546
+    paddingTop: 0.2571429
+    paddingBottom: -0.2571429
+  - name: icon_options_01
+    outer:
+      serializedVersion: 2
+      x: 514
+      y: 258
+      width: 104
+      height: 102
+    inner:
+      serializedVersion: 2
+      x: 514
+      y: 258
+      width: 104
+      height: 102
+    rotated: 0
+    paddingLeft: 0.2884615
+    paddingRight: -0.2884615
+    paddingTop: 0.2254902
+    paddingBottom: -0.2254902
+  - name: icon_pause_01
+    outer:
+      serializedVersion: 2
+      x: 340
+      y: 360
+      width: 58
+      height: 48
+    inner:
+      serializedVersion: 2
+      x: 340
+      y: 360
+      width: 58
+      height: 48
+    rotated: 0
+    paddingLeft: 0.6551724
+    paddingRight: -0.6551724
+    paddingTop: 0.7083333
+    paddingBottom: -0.7083333
+  - name: icon_progress_01
+    outer:
+      serializedVersion: 2
+      x: 316
+      y: 410
+      width: 84
+      height: 92
+    inner:
+      serializedVersion: 2
+      x: 316
+      y: 410
+      width: 84
+      height: 92
+    rotated: 0
+    paddingLeft: 0.4761905
+    paddingRight: -0.4761905
+    paddingTop: 0.3152174
+    paddingBottom: -0.3152174
+  - name: icon_shop_01
+    outer:
+      serializedVersion: 2
+      x: 226
+      y: 376
+      width: 88
+      height: 78
+    inner:
+      serializedVersion: 2
+      x: 226
+      y: 376
+      width: 88
+      height: 78
+    rotated: 0
+    paddingLeft: 0.375
+    paddingRight: -0.375
+    paddingTop: 0.3589744
+    paddingBottom: -0.3589744
+  - name: icon_sound_01
+    outer:
+      serializedVersion: 2
+      x: 542
+      y: 70
+      width: 80
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 542
+      y: 70
+      width: 80
+      height: 66
+    rotated: 0
+    paddingLeft: 0.4125
+    paddingRight: -0.4125
+    paddingTop: 0.2424242
+    paddingBottom: -0.2424242
+  - name: icon_trash_01
+    outer:
+      serializedVersion: 2
+      x: 566
+      y: 362
+      width: 48
+      height: 56
+    inner:
+      serializedVersion: 2
+      x: 566
+      y: 362
+      width: 48
+      height: 56
+    rotated: 0
+    paddingLeft: 1.041667
+    paddingRight: -1.041667
+    paddingTop: 0.3928571
+    paddingBottom: -0.3928571
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 114507738388599351, guid: 6a9d714512123a14588a09f83c4d4b8b, type: 2}
+--- !u!114 &114989136403951000
+MonoBehaviour:
+  m_GameObject: {fileID: 1674406955789832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5baaa57a9b5749749bea0d1ecd0620a5, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_baseAtlas: Menu Texture Atlas

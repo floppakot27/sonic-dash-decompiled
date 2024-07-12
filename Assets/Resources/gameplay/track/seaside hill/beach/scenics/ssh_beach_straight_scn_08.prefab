@@ -1,0 +1,275 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1152846622637276}
+  m_IsPrefabParent: 1
+--- !u!1 &1152846622637276
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4668781041643032}
+  - component: {fileID: 33282128716665313}
+  - component: {fileID: 23435545300428591}
+  - component: {fileID: 205371484487125115}
+  m_Layer: 0
+  m_Name: ssh_beach_straight_scn_08
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4668781041643032
+Transform:
+  m_GameObject: {fileID: 1152846622637276}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 92.53257, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4428853699418647}
+  - {fileID: 4475889746712317}
+  - {fileID: 4365377644503989}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!33 &33282128716665313
+MeshFilter:
+  m_GameObject: {fileID: 1152846622637276}
+  m_Mesh: {fileID: 0}
+--- !u!23 &23435545300428591
+MeshRenderer:
+  m_GameObject: {fileID: 1152846622637276}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: dd142bdac539bbe4b99ca45c55ad4c6e, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!205 &205371484487125115
+LODGroup:
+  m_GameObject: {fileID: 1152846622637276}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -0.6302109, y: -7.666569, z: 2.968379}
+  m_Size: 16.44803
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.03144468
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 23933521208564404}
+  - screenRelativeHeight: 0.02587773
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 23081951559572183}
+  - screenRelativeHeight: 0.02288061
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 23245197199817330}
+  m_Enabled: 1
+--- !u!1 &1406024444392987
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4428853699418647}
+  - component: {fileID: 33771532141299076}
+  - component: {fileID: 23933521208564404}
+  m_Layer: 0
+  m_Name: ssh_beach_straight_scn_08_lod0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4428853699418647
+Transform:
+  m_GameObject: {fileID: 1406024444392987}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4668781041643032}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33771532141299076
+MeshFilter:
+  m_GameObject: {fileID: 1406024444392987}
+  m_Mesh: {fileID: 4300000, guid: b943a5c91d0f02440b90f8f77ccacc7a, type: 2}
+--- !u!23 &23933521208564404
+MeshRenderer:
+  m_GameObject: {fileID: 1406024444392987}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: dd142bdac539bbe4b99ca45c55ad4c6e, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1894595597122171
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4475889746712317}
+  - component: {fileID: 33102203897113612}
+  - component: {fileID: 23081951559572183}
+  m_Layer: 0
+  m_Name: ssh_beach_straight_scn_08_lod1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4475889746712317
+Transform:
+  m_GameObject: {fileID: 1894595597122171}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4668781041643032}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33102203897113612
+MeshFilter:
+  m_GameObject: {fileID: 1894595597122171}
+  m_Mesh: {fileID: 4300000, guid: 91936df60512dd049b4240d5deb7667d, type: 2}
+--- !u!23 &23081951559572183
+MeshRenderer:
+  m_GameObject: {fileID: 1894595597122171}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: dd142bdac539bbe4b99ca45c55ad4c6e, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1914252083324929
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4365377644503989}
+  - component: {fileID: 33754087628624614}
+  - component: {fileID: 23245197199817330}
+  m_Layer: 0
+  m_Name: ssh_beach_straight_scn_08_lod1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4365377644503989
+Transform:
+  m_GameObject: {fileID: 1914252083324929}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4668781041643032}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33754087628624614
+MeshFilter:
+  m_GameObject: {fileID: 1914252083324929}
+  m_Mesh: {fileID: 4300000, guid: 91936df60512dd049b4240d5deb7667d, type: 2}
+--- !u!23 &23245197199817330
+MeshRenderer:
+  m_GameObject: {fileID: 1914252083324929}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: dd142bdac539bbe4b99ca45c55ad4c6e, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0

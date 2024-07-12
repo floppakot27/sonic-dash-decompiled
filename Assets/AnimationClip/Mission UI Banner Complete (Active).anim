@@ -1,0 +1,203 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_Name: Mission UI Banner Complete (Active)
+  serializedVersion: 6
+  m_Legacy: 1
+  m_Compressed: 0
+  m_UseHighQualityCurve: 0
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_EulerCurves: []
+  m_PositionCurves: []
+  m_ScaleCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0.3599997, y: 0.5999994, z: 0}
+        outSlope: {x: 0.3599997, y: 0.5999994, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.05
+        value: {x: 1.020991, y: 1.03, z: 1}
+        inSlope: {x: 0.3899074, y: 0.2999997, z: 0}
+        outSlope: {x: 0.3899074, y: 0.2999997, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.08333334
+        value: {x: 1.03, y: 1.037143, z: 1}
+        inSlope: {x: 0.1107691, y: 0.1285713, z: 0}
+        outSlope: {x: 0.1107691, y: 0.1285713, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.1666667
+        value: {x: 1.026327, y: 1.03, z: 1}
+        inSlope: {x: -0.1620566, y: -0.2999997, z: 0}
+        outSlope: {x: -0.1620566, y: -0.2999997, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.2166667
+        value: {x: 1.016454, y: 1, z: 1}
+        inSlope: {x: -0.219571, y: -0.5999995, z: 0}
+        outSlope: {x: -0.219571, y: -0.5999995, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.3
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: -0.1384614, y: 0, z: 0}
+        outSlope: {x: -0.1384614, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    path:
+  m_FloatCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: -1.875
+        outSlope: -1.875
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5333334
+        value: 0
+        inSlope: -1.875
+        outSlope: -1.875
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    attribute: m_widgetColour.a
+    path: Button/Background
+    classID: 114
+    script: {fileID: 11500000, guid: ea82ec557fef68e448ed6a19bc95ca7e, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5
+        value: 1
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    attribute: m_widgetColour.a
+    path: Sprite (icon_missioncomplete_01)
+    classID: 114
+    script: {fileID: 11500000, guid: ea82ec557fef68e448ed6a19bc95ca7e, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: -2
+        outSlope: -2
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5
+        value: 0
+        inSlope: -2
+        outSlope: -2
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    attribute: m_widgetColour.a
+    path: Button/Cost Group/Cost (Skip)
+    classID: 114
+    script: {fileID: 11500000, guid: ea82ec557fef68e448ed6a19bc95ca7e, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: -2
+        outSlope: -2
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5
+        value: 0
+        inSlope: -2
+        outSlope: -2
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    attribute: m_widgetColour.a
+    path: Button/Cost Group/Star Ring
+    classID: 114
+    script: {fileID: 11500000, guid: ea82ec557fef68e448ed6a19bc95ca7e, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: -3.333333
+        outSlope: Infinity
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.3
+        value: 0
+        inSlope: -3.333333
+        outSlope: -3.333333
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    attribute: mColor.a
+    path: Button/Cost Group/Sprite (icon_skip)
+    classID: 114
+    script: {fileID: 11500000, guid: 89342c0a89f4c0c4b97f2318488cc7dd, type: 3}
+  m_PPtrCurves: []
+  m_SampleRate: 60
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings: []
+    pptrCurveMapping: []
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_AdditiveReferencePoseClip: {fileID: 0}
+    m_AdditiveReferencePoseTime: 0
+    m_StartTime: 0
+    m_StopTime: 1
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_HasAdditiveReferencePose: 0
+    m_LoopTime: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves: []
+  m_EulerEditorCurves: []
+  m_HasGenericRootTransform: 0
+  m_HasMotionFloatCurves: 0
+  m_GenerateMotionCurves: 0
+  m_Events: []

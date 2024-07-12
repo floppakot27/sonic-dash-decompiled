@@ -1,0 +1,216 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_Name: Chopper_Swim
+  serializedVersion: 6
+  m_Legacy: 1
+  m_Compressed: 1
+  m_UseHighQualityCurve: 0
+  m_RotationCurves: []
+  m_CompressedRotationCurves:
+  - m_Path: Chopper_LOD1
+    m_Times:
+      m_NumItems: 2
+      m_Data: 0021
+      m_BitSize: 7
+    m_Values:
+      m_NumItems: 2
+      m_Data: fcf75fdafcf75fda
+    m_Slopes:
+      m_NumItems: 8
+      m_Range: 0
+      m_Start: 0
+      m_Data: 000000000000
+      m_BitSize: 6
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  - m_Path: Chopper_Root/Bone_Head
+    m_Times:
+      m_NumItems: 6
+      m_Data: 80b60609
+      m_BitSize: 5
+    m_Values:
+      m_NumItems: 6
+      m_Data: 3b3c5146f6d71fbf4e579db8aed71ebc3b1c91453b3c5146
+    m_Slopes:
+      m_NumItems: 24
+      m_Range: 0.7925879
+      m_Start: -0.467259
+      m_Data: e1f785860100e2288a7aceff327dd36cfbb6
+      m_BitSize: 6
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  - m_Path: Chopper_Root/Bone_Head/Bone_Lateral
+    m_Times:
+      m_NumItems: 8
+      m_Data: a0adda46
+      m_BitSize: 4
+    m_Values:
+      m_NumItems: 8
+      m_Data: fbd71c80fb272181fb97e37ffb77e27efb07df7df3a7db7efbf79b7ffbd71c80
+    m_Slopes:
+      m_NumItems: 32
+      m_Range: 2.449743
+      m_Start: -0.9870309
+      m_Data: d9cf71599c61d9676119606d589061d9b361d9ca6dd9db6d
+      m_BitSize: 6
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  - m_Path: Chopper_Root/Bone_Head/Bone_Lateral/Bone_CaudalFin
+    m_Times:
+      m_NumItems: 9
+      m_Data: 50aa78aa06
+      m_BitSize: 4
+    m_Values:
+      m_NumItems: 9
+      m_Data: 3ba8de7f63e8237b93f868760318257c9bf7e07f73779c8273f7d784d3571b833ba8de7f
+    m_Slopes:
+      m_NumItems: 36
+      m_Range: 4.67886
+      m_Start: -2.18736
+      m_Data: 206f75e05f619cd775cf5082d620761b006a1ed775e79c81277c79
+      m_BitSize: 6
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  - m_Path: Chopper_Root/Bone_Head/Bone_DorsalFin
+    m_Times:
+      m_NumItems: 5
+      m_Data: 80de6800
+      m_BitSize: 5
+    m_Values:
+      m_NumItems: 5
+      m_Data: fbf75f52fbf75f59fbf7df56fbf7df51fbf75f52
+    m_Slopes:
+      m_NumItems: 20
+      m_Range: 0.7213452
+      m_Start: -0.3834915
+      m_Data: 61f8b361788e61085861588e61788e
+      m_BitSize: 6
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  - m_Path: Chopper_Root/Bone_Head/Bone_PectoralFinLeft
+    m_Times:
+      m_NumItems: 7
+      m_Data: a09cf6a002
+      m_BitSize: 5
+    m_Values:
+      m_NumItems: 7
+      m_Data: 946aeacf2c1aabcce4892bc9b41aacca7313eeae7343eeab946aeacf
+    m_Slopes:
+      m_NumItems: 28
+      m_Range: 2.198873
+      m_Start: -1.2915
+      m_Data: 57b47252d356e37886f55f9aae0d8a16b3b913409e
+      m_BitSize: 6
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  - m_Path: Chopper_Root/Bone_Head/Bone_PectoralFinRight
+    m_Times:
+      m_NumItems: 6
+      m_Data: e0c9e60c
+      m_BitSize: 5
+    m_Values:
+      m_NumItems: 6
+      m_Data: 4b63934d2c9551c65cd594cdfb02d56133c313544b63934d
+    m_Slopes:
+      m_NumItems: 24
+      m_Range: 1.936907
+      m_Start: -1.041121
+      m_Data: 9d4a691f398a5ff8c3a4378eaa053ce3d750
+      m_BitSize: 6
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  - m_Path: Chopper_Root/Bone_Head/Bone_Jaw
+    m_Times:
+      m_NumItems: 9
+      m_Data: 50a5aaca04
+      m_BitSize: 4
+    m_Values:
+      m_NumItems: 9
+      m_Data: faefbf8efaefbf7dfaef3f76faefbf73faefbf73faefbf82faef3f92faefbf90faefbf8e
+    m_Slopes:
+      m_NumItems: 36
+      m_Range: 3.551924
+      m_Start: -1.976012
+      m_Data: a25802a22806a2183aa2288aa2289aa218fea218b6a23862a23862
+      m_BitSize: 6
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  m_EulerCurves: []
+  m_PositionCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0, y: 0.0324456, z: 0.03437218}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6666667
+        value: {x: 0, y: 0.0324456, z: 0.03437218}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    path: Chopper_LOD1
+  m_ScaleCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    path: Chopper_LOD1
+  m_FloatCurves: []
+  m_PPtrCurves: []
+  m_SampleRate: 30
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0.0001168251, y: 0.1553498, z: -0.1429946}
+    m_Extent: {x: 0.6233094, y: 0.4363503, z: 0.5903935}
+  m_ClipBindingConstant:
+    genericBindings: []
+    pptrCurveMapping: []
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_AdditiveReferencePoseClip: {fileID: 0}
+    m_AdditiveReferencePoseTime: 0
+    m_StartTime: 0
+    m_StopTime: 1
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_HasAdditiveReferencePose: 0
+    m_LoopTime: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves: []
+  m_EulerEditorCurves: []
+  m_HasGenericRootTransform: 0
+  m_HasMotionFloatCurves: 0
+  m_GenerateMotionCurves: 0
+  m_Events: []

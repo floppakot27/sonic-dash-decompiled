@@ -1,0 +1,297 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1169743715079140}
+  m_IsPrefabParent: 1
+--- !u!1 &1169743715079140
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4895296882470454}
+  - component: {fileID: 114818596145995791}
+  m_Layer: 0
+  m_Name: Large Heading Silver-hd
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4895296882470454
+Transform:
+  m_GameObject: {fileID: 1169743715079140}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114818596145995791
+MonoBehaviour:
+  m_GameObject: {fileID: 1169743715079140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de9010924a2875b44952d3bfa83407f9, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  mMat: {fileID: 2100000, guid: b79cede4e9185314c90912e1a7893695, type: 2}
+  mUVRect:
+    serializedVersion: 2
+    x: -0.001953125
+    y: 0.359375
+    width: 0.25
+    height: 0.5
+  mFont:
+    mSize: 80
+    mBase: 65
+    mWidth: 256
+    mHeight: 256
+    mSpriteName: Large Heading Silver-hd
+    mSaved:
+    - index: 32
+      x: 96
+      y: 216
+      width: 0
+      height: 0
+      offsetX: 0
+      offsetY: 61
+      advance: 25
+      channel: 0
+      kerning:
+    - index: 40
+      x: 2
+      y: 2
+      width: 30
+      height: 80
+      offsetX: 3
+      offsetY: -7
+      advance: 31
+      channel: 0
+      kerning:
+    - index: 41
+      x: 34
+      y: 2
+      width: 30
+      height: 80
+      offsetX: 0
+      offsetY: -7
+      advance: 31
+      channel: 0
+      kerning:
+    - index: 42
+      x: 213
+      y: 151
+      width: 26
+      height: 33
+      offsetX: 1
+      offsetY: -5
+      advance: 25
+      channel: 0
+      kerning:
+    - index: 44
+      x: 186
+      y: 151
+      width: 25
+      height: 40
+      offsetX: 1
+      offsetY: 33
+      advance: 25
+      channel: 0
+      kerning:
+    - index: 45
+      x: 24
+      y: 216
+      width: 25
+      height: 27
+      offsetX: 3
+      offsetY: 21
+      advance: 29
+      channel: 0
+      kerning:
+    - index: 46
+      x: 2
+      y: 216
+      width: 20
+      height: 28
+      offsetX: 3
+      offsetY: 33
+      advance: 25
+      channel: 0
+      kerning:
+    - index: 48
+      x: 46
+      y: 84
+      width: 41
+      height: 65
+      offsetX: 2
+      offsetY: -3
+      advance: 44
+      channel: 0
+      kerning:
+    - index: 49
+      x: 88
+      y: 151
+      width: 28
+      height: 63
+      offsetX: 1
+      offsetY: -2
+      advance: 31
+      channel: 0
+      kerning:
+    - index: 50
+      x: 168
+      y: 84
+      width: 41
+      height: 64
+      offsetX: 1
+      offsetY: -3
+      advance: 42
+      channel: 0
+      kerning:
+    - index: 51
+      x: 129
+      y: 84
+      width: 37
+      height: 65
+      offsetX: -1
+      offsetY: -3
+      advance: 37
+      channel: 0
+      kerning:
+    - index: 52
+      x: 2
+      y: 151
+      width: 42
+      height: 63
+      offsetX: -1
+      offsetY: -2
+      advance: 41
+      channel: 0
+      kerning:
+    - index: 53
+      x: 211
+      y: 84
+      width: 40
+      height: 64
+      offsetX: 0
+      offsetY: -2
+      advance: 38
+      channel: 0
+      kerning:
+    - index: 54
+      x: 174
+      y: 2
+      width: 42
+      height: 65
+      offsetX: 2
+      offsetY: -3
+      advance: 44
+      channel: 0
+      kerning:
+    - index: 55
+      x: 46
+      y: 151
+      width: 40
+      height: 63
+      offsetX: 1
+      offsetY: -2
+      advance: 40
+      channel: 0
+      kerning:
+    - index: 56
+      x: 89
+      y: 84
+      width: 38
+      height: 65
+      offsetX: 2
+      offsetY: -3
+      advance: 41
+      channel: 0
+      kerning:
+    - index: 57
+      x: 2
+      y: 84
+      width: 42
+      height: 65
+      offsetX: 2
+      offsetY: -3
+      advance: 44
+      channel: 0
+      kerning:
+    - index: 58
+      x: 164
+      y: 151
+      width: 20
+      height: 52
+      offsetX: 3
+      offsetY: 9
+      advance: 25
+      channel: 0
+      kerning:
+    - index: 88
+      x: 120
+      y: 2
+      width: 52
+      height: 66
+      offsetX: 0
+      offsetY: -5
+      advance: 50
+      channel: 0
+      kerning:
+    - index: 91
+      x: 66
+      y: 2
+      width: 25
+      height: 76
+      offsetX: 4
+      offsetY: -5
+      advance: 28
+      channel: 0
+      kerning:
+    - index: 93
+      x: 93
+      y: 2
+      width: 25
+      height: 76
+      offsetX: 1
+      offsetY: -5
+      advance: 28
+      channel: 0
+      kerning:
+    - index: 95
+      x: 51
+      y: 216
+      width: 43
+      height: 19
+      offsetX: 0
+      offsetY: 51
+      advance: 41
+      channel: 0
+      kerning:
+    - index: 120
+      x: 118
+      y: 151
+      width: 44
+      height: 52
+      offsetX: 0
+      offsetY: 9
+      advance: 41
+      channel: 0
+      kerning:
+  mSpacingX: -2
+  mSpacingY: 0
+  mAtlas: {fileID: 114556201367252136, guid: cf8f223f442413f4495281d4b09a7d93, type: 2}
+  mReplacement: {fileID: 0}
+  mPixelSize: 1
+  mSymbols: []
+  mDynamicFont: {fileID: 0}
+  mDynamicFontSize: 16
+  mDynamicFontStyle: 0
+  mDynamicFontOffset: 0

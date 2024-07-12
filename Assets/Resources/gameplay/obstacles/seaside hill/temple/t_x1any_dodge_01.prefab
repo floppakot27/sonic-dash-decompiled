@@ -1,0 +1,298 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1019455188171080}
+  m_IsPrefabParent: 1
+--- !u!1 &1019455188171080
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4843912650459291}
+  - component: {fileID: 33338356806572529}
+  - component: {fileID: 114571836478021249}
+  - component: {fileID: 65609180858770235}
+  - component: {fileID: 205871859048395073}
+  m_Layer: 15
+  m_Name: t_x1any_dodge_01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4843912650459291
+Transform:
+  m_GameObject: {fileID: 1019455188171080}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -6.86322, y: 7.152557E-07, z: 5.493454}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4556696861377082}
+  - {fileID: 4791413214507651}
+  - {fileID: 4234129272971382}
+  - {fileID: 4123277280897295}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!33 &33338356806572529
+MeshFilter:
+  m_GameObject: {fileID: 1019455188171080}
+  m_Mesh: {fileID: 0}
+--- !u!114 &114571836478021249
+MonoBehaviour:
+  m_GameObject: {fileID: 1019455188171080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe598dd6937b8cc44a75b91805e1bb65, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_gameplayTypes: 0
+  m_numLanesOccupied: 1
+  m_subzoneIndex: 1
+--- !u!65 &65609180858770235
+BoxCollider:
+  m_GameObject: {fileID: 1019455188171080}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2, z: 4}
+  m_Center: {x: 0, y: 0, z: 2}
+--- !u!205 &205871859048395073
+LODGroup:
+  m_GameObject: {fileID: 1019455188171080}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0.1024665, y: 0.03260362, z: -1.235699}
+  m_Size: 6.374096
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 23099253468670651}
+  - screenRelativeHeight: 0.1038032
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 23982551044260321}
+  - screenRelativeHeight: 0
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 23676089889583462}
+  m_Enabled: 1
+--- !u!1 &1061745114481236
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4556696861377082}
+  - component: {fileID: 65894078591923529}
+  m_Layer: 20
+  m_Name: physics collision
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4556696861377082
+Transform:
+  m_GameObject: {fileID: 1061745114481236}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4843912650459291}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!65 &65894078591923529
+BoxCollider:
+  m_GameObject: {fileID: 1061745114481236}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
+--- !u!1 &1707870479187880
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4791413214507651}
+  - component: {fileID: 33001254694915808}
+  - component: {fileID: 23099253468670651}
+  m_Layer: 0
+  m_Name: t_x1any_dodge_01_lod0(Clone)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4791413214507651
+Transform:
+  m_GameObject: {fileID: 1707870479187880}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.416332, y: 1.416332, z: 1.416332}
+  m_Children: []
+  m_Father: {fileID: 4843912650459291}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33001254694915808
+MeshFilter:
+  m_GameObject: {fileID: 1707870479187880}
+  m_Mesh: {fileID: 4300000, guid: ce002b914f54b6341b59da834e1858f1, type: 2}
+--- !u!23 &23099253468670651
+MeshRenderer:
+  m_GameObject: {fileID: 1707870479187880}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 4bc2be65733609f44ba4d36f0d2c809f, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1167708543982678
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4234129272971382}
+  - component: {fileID: 33410426991023998}
+  - component: {fileID: 23982551044260321}
+  m_Layer: 0
+  m_Name: t_x1any_dodge_01_lod0(Clone)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4234129272971382
+Transform:
+  m_GameObject: {fileID: 1167708543982678}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.416332, y: 1.416332, z: 1.416332}
+  m_Children: []
+  m_Father: {fileID: 4843912650459291}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33410426991023998
+MeshFilter:
+  m_GameObject: {fileID: 1167708543982678}
+  m_Mesh: {fileID: 4300000, guid: ce002b914f54b6341b59da834e1858f1, type: 2}
+--- !u!23 &23982551044260321
+MeshRenderer:
+  m_GameObject: {fileID: 1167708543982678}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 4bc2be65733609f44ba4d36f0d2c809f, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1036756519296164
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4123277280897295}
+  - component: {fileID: 33532692448534946}
+  - component: {fileID: 23676089889583462}
+  m_Layer: 0
+  m_Name: t_x1any_dodge_01_lod0(Clone)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4123277280897295
+Transform:
+  m_GameObject: {fileID: 1036756519296164}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.416332, y: 1.416332, z: 1.416332}
+  m_Children: []
+  m_Father: {fileID: 4843912650459291}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33532692448534946
+MeshFilter:
+  m_GameObject: {fileID: 1036756519296164}
+  m_Mesh: {fileID: 4300000, guid: ce002b914f54b6341b59da834e1858f1, type: 2}
+--- !u!23 &23676089889583462
+MeshRenderer:
+  m_GameObject: {fileID: 1036756519296164}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 4bc2be65733609f44ba4d36f0d2c809f, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0

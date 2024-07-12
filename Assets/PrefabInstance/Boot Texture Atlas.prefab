@@ -1,0 +1,138 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1569939205361026}
+  m_IsPrefabParent: 1
+--- !u!1 &1569939205361026
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4424237497991459}
+  - component: {fileID: 114538307819962872}
+  m_Layer: 0
+  m_Name: Boot Texture Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4424237497991459
+Transform:
+  m_GameObject: {fileID: 1569939205361026}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114538307819962872
+MonoBehaviour:
+  m_GameObject: {fileID: 1569939205361026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13cc67d3c7c8c8a44b59223817b7e082, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: a9dccdd99c92e434a8328dc7b5478b5c, type: 2}
+  sprites:
+  - name: hardlight_logo_01
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 512
+      height: 512
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 512
+      height: 512
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: black_bg_01
+    outer:
+      serializedVersion: 2
+      x: 512
+      y: 448
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 512
+      y: 448
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: boot_loading_bar_fill
+    outer:
+      serializedVersion: 2
+      x: 576
+      y: 467
+      width: 32
+      height: 45
+    inner:
+      serializedVersion: 2
+      x: 588
+      y: 491
+      width: 8
+      height: 1
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: boot_loading_bar_bg
+    outer:
+      serializedVersion: 2
+      x: 608
+      y: 467
+      width: 32
+      height: 45
+    inner:
+      serializedVersion: 2
+      x: 620
+      y: 491
+      width: 8
+      height: 1
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Small Heading Silver-hd
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 512
+      width: 1024
+      height: 512
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 512
+      width: 1024
+      height: 512
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 2
+  mReplacement: {fileID: 0}

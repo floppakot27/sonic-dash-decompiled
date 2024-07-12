@@ -1,0 +1,301 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1052561711876307}
+  m_IsPrefabParent: 1
+--- !u!1 &1052561711876307
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4346871920156937}
+  - component: {fileID: 33024085797692673}
+  - component: {fileID: 65254694500419150}
+  - component: {fileID: 114750256560718185}
+  - component: {fileID: 205144412905684680}
+  m_Layer: 14
+  m_Name: spike_hazard_01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4346871920156937
+Transform:
+  m_GameObject: {fileID: 1052561711876307}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -1.533961, y: 0.5351676, z: -5.668284}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4948665075345241}
+  - {fileID: 4178120348234047}
+  - {fileID: 4547220692628641}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!33 &33024085797692673
+MeshFilter:
+  m_GameObject: {fileID: 1052561711876307}
+  m_Mesh: {fileID: 0}
+--- !u!65 &65254694500419150
+BoxCollider:
+  m_GameObject: {fileID: 1052561711876307}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0.5}
+--- !u!114 &114750256560718185
+MonoBehaviour:
+  m_GameObject: {fileID: 1052561711876307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04819b3aa0c26b345b410fb611b5df41, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_gameplayTypes: 1
+  m_numLanesOccupied: 1
+  m_subzoneIndex: -1
+--- !u!205 &205144412905684680
+LODGroup:
+  m_GameObject: {fileID: 1052561711876307}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0, y: 0, z: 0.541243}
+  m_Size: 2
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 23902049533347212}
+  - screenRelativeHeight: 0.3
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 23366409372888311}
+  - screenRelativeHeight: 0
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 23964749006727460}
+  m_Enabled: 1
+--- !u!1 &1613812072791554
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4948665075345241}
+  - component: {fileID: 33745692895960840}
+  - component: {fileID: 23902049533347212}
+  - component: {fileID: 111781244174840652}
+  m_Layer: 0
+  m_Name: spike_hazard_01_lod0(Clone)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4948665075345241
+Transform:
+  m_GameObject: {fileID: 1613812072791554}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4346871920156937}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33745692895960840
+MeshFilter:
+  m_GameObject: {fileID: 1613812072791554}
+  m_Mesh: {fileID: 4300000, guid: c520097fc2f35eb4d90c2a6ff7995089, type: 2}
+--- !u!23 &23902049533347212
+MeshRenderer:
+  m_GameObject: {fileID: 1613812072791554}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 16cba04ac3d07024d9a26b4b2f70b0b1, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!111 &111781244174840652
+Animation:
+  m_GameObject: {fileID: 1613812072791554}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!1 &1846961806244410
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4178120348234047}
+  - component: {fileID: 33491608380756994}
+  - component: {fileID: 23366409372888311}
+  - component: {fileID: 111804498449598673}
+  m_Layer: 0
+  m_Name: spike_hazard_01_lod1(Clone)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4178120348234047
+Transform:
+  m_GameObject: {fileID: 1846961806244410}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4346871920156937}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33491608380756994
+MeshFilter:
+  m_GameObject: {fileID: 1846961806244410}
+  m_Mesh: {fileID: 4300000, guid: 5d5168b609c791f45a2d342ced80138f, type: 2}
+--- !u!23 &23366409372888311
+MeshRenderer:
+  m_GameObject: {fileID: 1846961806244410}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 16cba04ac3d07024d9a26b4b2f70b0b1, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!111 &111804498449598673
+Animation:
+  m_GameObject: {fileID: 1846961806244410}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!1 &1097909327479135
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4547220692628641}
+  - component: {fileID: 33945466283416420}
+  - component: {fileID: 23964749006727460}
+  - component: {fileID: 111344047785287439}
+  m_Layer: 0
+  m_Name: spike_hazard_01_lod1(Clone)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4547220692628641
+Transform:
+  m_GameObject: {fileID: 1097909327479135}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4346871920156937}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33945466283416420
+MeshFilter:
+  m_GameObject: {fileID: 1097909327479135}
+  m_Mesh: {fileID: 4300000, guid: 5d5168b609c791f45a2d342ced80138f, type: 2}
+--- !u!23 &23964749006727460
+MeshRenderer:
+  m_GameObject: {fileID: 1097909327479135}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 16cba04ac3d07024d9a26b4b2f70b0b1, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!111 &111344047785287439
+Animation:
+  m_GameObject: {fileID: 1097909327479135}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0

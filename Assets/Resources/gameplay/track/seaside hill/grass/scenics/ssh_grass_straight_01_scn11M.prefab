@@ -1,0 +1,238 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1347907639108647}
+  m_IsPrefabParent: 1
+--- !u!1 &1347907639108647
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4274531590742605}
+  - component: {fileID: 205014331011411103}
+  m_Layer: 0
+  m_Name: ssh_grass_straight_01_scn11M
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4274531590742605
+Transform:
+  m_GameObject: {fileID: 1347907639108647}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -86.9922, y: -7.250446, z: 26.97821}
+  m_LocalScale: {x: -1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4599191186628289}
+  - {fileID: 4681864289404644}
+  - {fileID: 4730441731266349}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!205 &205014331011411103
+LODGroup:
+  m_GameObject: {fileID: 1347907639108647}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0, y: -6.896318, z: 0.5152779}
+  m_Size: 19.26538
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 23465771024476270}
+  - screenRelativeHeight: 0.3
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 23225611374623682}
+  - screenRelativeHeight: 0.03400583
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 23684951110331375}
+  m_Enabled: 1
+--- !u!1 &1553843260034785
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4599191186628289}
+  - component: {fileID: 33150232847151845}
+  - component: {fileID: 23225611374623682}
+  m_Layer: 0
+  m_Name: ssh_grass_straight_01_scn11_lod1(Clone)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4599191186628289
+Transform:
+  m_GameObject: {fileID: 1553843260034785}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4274531590742605}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33150232847151845
+MeshFilter:
+  m_GameObject: {fileID: 1553843260034785}
+  m_Mesh: {fileID: 4300000, guid: e67b2bb0f26154442b661e9b217f6c00, type: 2}
+--- !u!23 &23225611374623682
+MeshRenderer:
+  m_GameObject: {fileID: 1553843260034785}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: b23f902f7ae44064db2cbbe60b37acef, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1925703365735091
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4681864289404644}
+  - component: {fileID: 33354055123445607}
+  - component: {fileID: 23465771024476270}
+  m_Layer: 0
+  m_Name: ssh_grass_straight_01_scn11_lod1(Clone)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4681864289404644
+Transform:
+  m_GameObject: {fileID: 1925703365735091}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4274531590742605}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33354055123445607
+MeshFilter:
+  m_GameObject: {fileID: 1925703365735091}
+  m_Mesh: {fileID: 4300000, guid: e67b2bb0f26154442b661e9b217f6c00, type: 2}
+--- !u!23 &23465771024476270
+MeshRenderer:
+  m_GameObject: {fileID: 1925703365735091}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: b23f902f7ae44064db2cbbe60b37acef, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1601447464547171
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4730441731266349}
+  - component: {fileID: 33242471099937538}
+  - component: {fileID: 23684951110331375}
+  m_Layer: 0
+  m_Name: ssh_grass_straight_01_scn11_lod2(Clone)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730441731266349
+Transform:
+  m_GameObject: {fileID: 1601447464547171}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4274531590742605}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33242471099937538
+MeshFilter:
+  m_GameObject: {fileID: 1601447464547171}
+  m_Mesh: {fileID: 4300000, guid: 3ff542329f3e1ab42ad2b2196355d374, type: 2}
+--- !u!23 &23684951110331375
+MeshRenderer:
+  m_GameObject: {fileID: 1601447464547171}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: b23f902f7ae44064db2cbbe60b37acef, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0

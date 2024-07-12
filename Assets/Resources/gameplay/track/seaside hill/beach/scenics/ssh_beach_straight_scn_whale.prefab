@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1321203734816681}
+  m_IsPrefabParent: 1
+--- !u!1 &1321203734816681
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4280223221453190}
+  - component: {fileID: 33753767680262952}
+  - component: {fileID: 23338384795155004}
+  - component: {fileID: 114716894442505614}
+  m_Layer: 30
+  m_Name: ssh_beach_straight_scn_whale
+  m_TagString: MovableShadow
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4280223221453190
+Transform:
+  m_GameObject: {fileID: 1321203734816681}
+  m_LocalRotation: {x: -0.7071069, y: 3.934079E-08, z: 2.247646E-08, w: 0.7071068}
+  m_LocalPosition: {x: -250.2897, y: -1.71534, z: 42.64062}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90.00001, y: -5.008957E-06, z: 1.366491E-06}
+--- !u!33 &33753767680262952
+MeshFilter:
+  m_GameObject: {fileID: 1321203734816681}
+  m_Mesh: {fileID: 4300000, guid: fcc32ea37bd49e747a2f9b1892e53cea, type: 2}
+--- !u!23 &23338384795155004
+MeshRenderer:
+  m_GameObject: {fileID: 1321203734816681}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: dd142bdac539bbe4b99ca45c55ad4c6e, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &114716894442505614
+MonoBehaviour:
+  m_GameObject: {fileID: 1321203734816681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f5e1167a092bd448a3a1d66b262cf81, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_triggerDistance: 50
+  m_animationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0.5761223
+      inSlope: 316.0613
+      outSlope: 316.0613
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.2497461
+      value: 90.67101
+      inSlope: 234.1392
+      outSlope: 234.1392
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1.50437
+      value: 270.8432
+      inSlope: 186.9004
+      outSlope: 186.9004
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1.997952
+      value: 358.7843
+      inSlope: 191.8423
+      outSlope: 191.8423
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0

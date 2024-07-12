@@ -1,0 +1,238 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1826614939855060}
+  m_IsPrefabParent: 1
+--- !u!1 &1826614939855060
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4765767167900215}
+  - component: {fileID: 205018790049029452}
+  m_Layer: 0
+  m_Name: ssh_temple_up_bankr_01_scn01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4765767167900215
+Transform:
+  m_GameObject: {fileID: 1826614939855060}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 198.0102, y: 0, z: -6.646008}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4234334059984109}
+  - {fileID: 4451558002564933}
+  - {fileID: 4125929560353112}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!205 &205018790049029452
+LODGroup:
+  m_GameObject: {fileID: 1826614939855060}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 31.18658, y: -36.2379, z: 19.41612}
+  m_Size: 72.1256
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 23642590355729068}
+  - screenRelativeHeight: 0.3
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 23754496892361088}
+  - screenRelativeHeight: 0.062001
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 23775419083503304}
+  m_Enabled: 1
+--- !u!1 &1860911081376645
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4234334059984109}
+  - component: {fileID: 33312608051219093}
+  - component: {fileID: 23642590355729068}
+  m_Layer: 0
+  m_Name: ssh_temple_up_bankr_01_scn01_lod0(Clone)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4234334059984109
+Transform:
+  m_GameObject: {fileID: 1860911081376645}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4765767167900215}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33312608051219093
+MeshFilter:
+  m_GameObject: {fileID: 1860911081376645}
+  m_Mesh: {fileID: 4300000, guid: 499e1168b0a0f1d469b0023b182bbb28, type: 2}
+--- !u!23 &23642590355729068
+MeshRenderer:
+  m_GameObject: {fileID: 1860911081376645}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 4bc2be65733609f44ba4d36f0d2c809f, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1218995644692628
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4451558002564933}
+  - component: {fileID: 33533938830534873}
+  - component: {fileID: 23754496892361088}
+  m_Layer: 0
+  m_Name: ssh_temple_up_bankr_01_scn01_lod0(Clone)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4451558002564933
+Transform:
+  m_GameObject: {fileID: 1218995644692628}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4765767167900215}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33533938830534873
+MeshFilter:
+  m_GameObject: {fileID: 1218995644692628}
+  m_Mesh: {fileID: 4300000, guid: 499e1168b0a0f1d469b0023b182bbb28, type: 2}
+--- !u!23 &23754496892361088
+MeshRenderer:
+  m_GameObject: {fileID: 1218995644692628}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 4bc2be65733609f44ba4d36f0d2c809f, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1762000916696095
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4125929560353112}
+  - component: {fileID: 33736738632043396}
+  - component: {fileID: 23775419083503304}
+  m_Layer: 0
+  m_Name: ssh_temple_up_bankr_01_scn01_lod1(Clone)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4125929560353112
+Transform:
+  m_GameObject: {fileID: 1762000916696095}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4765767167900215}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33736738632043396
+MeshFilter:
+  m_GameObject: {fileID: 1762000916696095}
+  m_Mesh: {fileID: 4300000, guid: fa2a64c9568bb68458d09bb05cb6165e, type: 2}
+--- !u!23 &23775419083503304
+MeshRenderer:
+  m_GameObject: {fileID: 1762000916696095}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 4bc2be65733609f44ba4d36f0d2c809f, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0

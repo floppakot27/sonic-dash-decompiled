@@ -1,0 +1,275 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1298730266651663}
+  m_IsPrefabParent: 1
+--- !u!1 &1298730266651663
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4195932632068677}
+  - component: {fileID: 33100409457097260}
+  - component: {fileID: 23184151211710053}
+  - component: {fileID: 205583185183026960}
+  m_Layer: 0
+  m_Name: ssh_beach_bankr_scn_01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4195932632068677
+Transform:
+  m_GameObject: {fileID: 1298730266651663}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -125.8813, y: -1.144409E-05, z: -96.95808}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4225500636786515}
+  - {fileID: 4157769181363141}
+  - {fileID: 4641263898046348}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!33 &33100409457097260
+MeshFilter:
+  m_GameObject: {fileID: 1298730266651663}
+  m_Mesh: {fileID: 0}
+--- !u!23 &23184151211710053
+MeshRenderer:
+  m_GameObject: {fileID: 1298730266651663}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: dd142bdac539bbe4b99ca45c55ad4c6e, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!205 &205583185183026960
+LODGroup:
+  m_GameObject: {fileID: 1298730266651663}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 20.53901, y: -42.57097, z: 5.212497}
+  m_Size: 54.63546
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.03144468
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 23981543215147246}
+  - screenRelativeHeight: 0.02587773
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 23563255357249479}
+  - screenRelativeHeight: 0.02288061
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 23905993976955276}
+  m_Enabled: 1
+--- !u!1 &1347829880973348
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4225500636786515}
+  - component: {fileID: 33169916361883675}
+  - component: {fileID: 23981543215147246}
+  m_Layer: 0
+  m_Name: ssh_beach_bankr_scn_01_lod0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4225500636786515
+Transform:
+  m_GameObject: {fileID: 1347829880973348}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4195932632068677}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33169916361883675
+MeshFilter:
+  m_GameObject: {fileID: 1347829880973348}
+  m_Mesh: {fileID: 4300000, guid: 85e98855822d20647a110c39eedb45a8, type: 2}
+--- !u!23 &23981543215147246
+MeshRenderer:
+  m_GameObject: {fileID: 1347829880973348}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: dd142bdac539bbe4b99ca45c55ad4c6e, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1731956368241032
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4157769181363141}
+  - component: {fileID: 33400501357737340}
+  - component: {fileID: 23563255357249479}
+  m_Layer: 0
+  m_Name: ssh_beach_bankr_scn_01_lod1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4157769181363141
+Transform:
+  m_GameObject: {fileID: 1731956368241032}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4195932632068677}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33400501357737340
+MeshFilter:
+  m_GameObject: {fileID: 1731956368241032}
+  m_Mesh: {fileID: 4300000, guid: 92bb61c2303b39044b46236188a5529d, type: 2}
+--- !u!23 &23563255357249479
+MeshRenderer:
+  m_GameObject: {fileID: 1731956368241032}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: dd142bdac539bbe4b99ca45c55ad4c6e, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1215170171732108
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4641263898046348}
+  - component: {fileID: 33942375781809243}
+  - component: {fileID: 23905993976955276}
+  m_Layer: 0
+  m_Name: ssh_beach_bankr_scn_01_lod1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4641263898046348
+Transform:
+  m_GameObject: {fileID: 1215170171732108}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4195932632068677}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33942375781809243
+MeshFilter:
+  m_GameObject: {fileID: 1215170171732108}
+  m_Mesh: {fileID: 4300000, guid: 92bb61c2303b39044b46236188a5529d, type: 2}
+--- !u!23 &23905993976955276
+MeshRenderer:
+  m_GameObject: {fileID: 1215170171732108}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: dd142bdac539bbe4b99ca45c55ad4c6e, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0

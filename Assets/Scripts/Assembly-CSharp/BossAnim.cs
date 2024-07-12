@@ -1,0 +1,19 @@
+public enum BossAnim
+{
+	Idle,
+	Flyby,
+	PreFire,
+	Fire,
+	PostFire,
+	FlyOff,
+	AttackStart,
+	AttackVulnerable,
+	AttackHit1,
+	AttackHit2,
+	AttackHit3,
+	AttackFailure1,
+	AttackFailure2,
+	AttackFailure3,
+	Taunt,
+	PreFireLong
+}

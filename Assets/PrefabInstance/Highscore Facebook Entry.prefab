@@ -1,0 +1,381 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1389695195641846}
+  m_IsPrefabParent: 1
+--- !u!1 &1389695195641846
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4782114396630460}
+  - component: {fileID: 65113991046275318}
+  - component: {fileID: 114373987627578092}
+  m_Layer: 11
+  m_Name: Highscore Facebook Entry
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4782114396630460
+Transform:
+  m_GameObject: {fileID: 1389695195641846}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4790579104611176}
+  - {fileID: 4310668520218051}
+  - {fileID: 4154661283980008}
+  - {fileID: 4302372934453113}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &65113991046275318
+BoxCollider:
+  m_GameObject: {fileID: 1389695195641846}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1000, y: 140, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114373987627578092
+MonoBehaviour:
+  m_GameObject: {fileID: 1389695195641846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fbe391c9c5700442b4d13a5d3aca97e, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  draggablePanel: {fileID: 0}
+  panel: {fileID: 0}
+--- !u!1 &1933668417799579
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4790579104611176}
+  - component: {fileID: 114024232012832739}
+  - component: {fileID: 114916042473280513}
+  - component: {fileID: 114591142378385244}
+  m_Layer: 11
+  m_Name: ' Label (Invite)'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4790579104611176
+Transform:
+  m_GameObject: {fileID: 1933668417799579}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -460, y: -4, z: 0}
+  m_LocalScale: {x: 64, y: 64, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4782114396630460}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114024232012832739
+MonoBehaviour:
+  m_GameObject: {fileID: 1933668417799579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 047ad91817dc4914d8707f7a83dc1f4a, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  mMat: {fileID: 2100000, guid: 465b0f794b9b3074790f35d11c69c895, type: 2}
+  mTex: {fileID: 0}
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 3
+  mDepth: 41
+  mFont: {fileID: 114316916829339019, guid: fb516e2e54f88094180c5712062b5a7c, type: 2}
+  mText: SIGN INTO FACEBOOK OR GAME CENTER TO ENABLE LEADERBOARDS
+  mMaxLineWidth: 820
+  mEncoding: 0
+  mMaxLineCount: 2
+  mPassword: 0
+  mShowLastChar: 0
+  mEffectStyle: 0
+  mEffectColor: {r: 0, g: 0, b: 0, a: 1}
+  mSymbols: 1
+  mEffectDistance: {x: 1, y: 1}
+  mShrinkToFit: 0
+  mLineWidth: 0
+  mMultiline: 1
+--- !u!114 &114916042473280513
+MonoBehaviour:
+  m_GameObject: {fileID: 1933668417799579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1d6210e9412e8848966fb938a3eb0b7, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_localisationID: FACEBOOK_LEADERBOARD1
+  m_languageStrings: {fileID: 0}
+  m_sourceFile:
+  m_targetLanguage: 0
+--- !u!114 &114591142378385244
+MonoBehaviour:
+  m_GameObject: {fileID: 1933668417799579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 211788f32a0e4114a9a94f81e1207990, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!1 &1583554822370603
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4310668520218051}
+  - component: {fileID: 65617677561113536}
+  - component: {fileID: 114377340512141381}
+  - component: {fileID: 114306648011285635}
+  - component: {fileID: 114123220568558929}
+  - component: {fileID: 114295399646209366}
+  - component: {fileID: 114553372789277801}
+  m_Layer: 11
+  m_Name: Button (facebook)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4310668520218051
+Transform:
+  m_GameObject: {fileID: 1583554822370603}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 460, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4224925279485703}
+  m_Father: {fileID: 4782114396630460}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &65617677561113536
+BoxCollider:
+  m_GameObject: {fileID: 1583554822370603}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1000, y: 150, z: 1}
+  m_Center: {x: -430, y: 0, z: -5}
+--- !u!114 &114377340512141381
+MonoBehaviour:
+  m_GameObject: {fileID: 1583554822370603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 517cb796fcf86a84890dc229928f16b6, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  tweenTarget: {fileID: 4310668520218051}
+  hover: {x: 1, y: 1, z: 1}
+  pressed: {x: 0.9, y: 0.9, z: 0.9}
+  duration: 0.01
+--- !u!114 &114306648011285635
+MonoBehaviour:
+  m_GameObject: {fileID: 1583554822370603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f84d0c4ba4a55d41ad8937ca1c10fd5, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  audioClip: {fileID: 8300000, guid: e476611a30db9584ab5da4ed106d5ffa, type: 3}
+  trigger: 3
+  volume: 0.4
+  pitch: 1
+--- !u!114 &114123220568558929
+MonoBehaviour:
+  m_GameObject: {fileID: 1583554822370603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f84d0c4ba4a55d41ad8937ca1c10fd5, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  audioClip: {fileID: 8300000, guid: 5b4348f03b688dd49a205541859c4f1c, type: 3}
+  trigger: 0
+  volume: 0.4
+  pitch: 1
+--- !u!114 &114295399646209366
+MonoBehaviour:
+  m_GameObject: {fileID: 1583554822370603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7f3515ef284f0941a7e48e9337bc323, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  tweenTarget: {fileID: 1039327997223537}
+  hover: {r: 1, g: 1, b: 1, a: 1}
+  pressed: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  duration: 0.01
+--- !u!114 &114553372789277801
+MonoBehaviour:
+  m_GameObject: {fileID: 1583554822370603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3102a1c9ecadd0a4fb80c3156db4d352, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  target: {fileID: 0}
+  functionName: Trigger_FBLogin
+  trigger: 0
+  includeChildren: 0
+--- !u!1 &1039327997223537
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4224925279485703}
+  - component: {fileID: 114068295185972240}
+  m_Layer: 11
+  m_Name: Sprite (button_facebook)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4224925279485703
+Transform:
+  m_GameObject: {fileID: 1039327997223537}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 140, y: 140, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4310668520218051}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114068295185972240
+MonoBehaviour:
+  m_GameObject: {fileID: 1039327997223537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89342c0a89f4c0c4b97f2318488cc7dd, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  mMat: {fileID: 2100000, guid: 465b0f794b9b3074790f35d11c69c895, type: 2}
+  mTex: {fileID: 2800000, guid: c08dc3a0803d329478f6d32d3fe4129d, type: 3}
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 4
+  mDepth: 44
+  mAtlas: {fileID: 114570667164118460, guid: 3e7b325a45a182b43bc8ae8e7da6022f, type: 2}
+  mSpriteName: button_facebook
+  mFillCenter: 1
+  mType: 0
+  mFillDirection: 4
+  mFillAmount: 1
+  mInvert: 0
+--- !u!1 &1537011369515601
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4154661283980008}
+  m_Layer: 11
+  m_Name: FreeRings_Tag (parent)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4154661283980008
+Transform:
+  m_GameObject: {fileID: 1537011369515601}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 338, y: 60, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4365047528473472}
+  m_Father: {fileID: 4782114396630460}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1489904684473168
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4365047528473472}
+  - component: {fileID: 114236745728661943}
+  m_Layer: 11
+  m_Name: Sprite (button_freerings_tag)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4365047528473472
+Transform:
+  m_GameObject: {fileID: 1489904684473168}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -875, y: 15, z: 0}
+  m_LocalScale: {x: 134, y: 134, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4154661283980008}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114236745728661943
+MonoBehaviour:
+  m_GameObject: {fileID: 1489904684473168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89342c0a89f4c0c4b97f2318488cc7dd, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  mMat: {fileID: 2100000, guid: 465b0f794b9b3074790f35d11c69c895, type: 2}
+  mTex: {fileID: 2800000, guid: c08dc3a0803d329478f6d32d3fe4129d, type: 3}
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 0
+  mDepth: 50
+  mAtlas: {fileID: 114570667164118460, guid: 3e7b325a45a182b43bc8ae8e7da6022f, type: 2}
+  mSpriteName: button_freerings_tag
+  mFillCenter: 1
+  mType: 0
+  mFillDirection: 4
+  mFillAmount: 1
+  mInvert: 0
+--- !u!1 &1736100404672744
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4302372934453113}
+  - component: {fileID: 114431856892037593}
+  m_Layer: 11
+  m_Name: SlicedSprite (frame_leaderboard_item)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4302372934453113
+Transform:
+  m_GameObject: {fileID: 1736100404672744}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1090, y: 154, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4782114396630460}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114431856892037593
+MonoBehaviour:
+  m_GameObject: {fileID: 1736100404672744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d70cb75434a49af4e8fa73871222f5b5, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  mMat: {fileID: 2100000, guid: 465b0f794b9b3074790f35d11c69c895, type: 2}
+  mTex: {fileID: 2800000, guid: c08dc3a0803d329478f6d32d3fe4129d, type: 3}
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 4
+  mDepth: 40
+  mAtlas: {fileID: 114570667164118460, guid: 3e7b325a45a182b43bc8ae8e7da6022f, type: 2}
+  mSpriteName: frame_leaderboard_item
+  mFillCenter: 1
+  mType: 0
+  mFillDirection: 4
+  mFillAmount: 1
+  mInvert: 0
